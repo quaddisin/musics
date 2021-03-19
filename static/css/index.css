@@ -1,0 +1,1796 @@
+:root {
+    background-color: #000;
+}
+
+#TumGenelAlan {
+    position: relative;
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #FFF;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+#GenelAlaniSinirlamaAlani {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #FFF;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+#NavBarGenelAlani {
+    z-index: 99;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 40px;
+    min-height: 40px;
+    max-height: 40px;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #000;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+#NavBarSinirlandirmaAlani {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 40px;
+    min-height: 40px;
+    max-height: 40px;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #000;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+#NavBarLinklerAlani {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+    background-color: #000;
+}
+
+#NavBarLinkleriListeAlani {
+    display: block;
+    float: left;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 40px;
+    min-height: 40px;
+    max-height: 40px;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+    background-color: #000;
+}
+
+#NavBarLinkleriListe {
+    display: inline-block;
+    float: left;
+    width: auto;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    padding: 8px;
+    padding-left: 15px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+    background-color: #000;
+}
+
+#NavBarLinkleriListe a {
+    display: inline-block;
+    float: left;
+    width: auto;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+    background-color: #000;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-variant: normal;
+    color: #FFF;
+    transition: all 1s 0s linear;
+}
+
+@media only screen and (min-width:1200px) {
+    #NavBarLinkleriListe a {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width:996px) and (max-width:1199px) {
+    #NavBarLinkleriListe a {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:995px) {
+    #NavBarLinkleriListe a {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+    #NavBarLinkleriListe a {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width:575px) {
+    #NavBarLinkleriListe a {
+        font-size: 12px;
+    }
+}
+
+#NavBarLinkleriListe a:link,
+#NavBarLinkleriListe a:active,
+#NavBarLinkleriListe a:visited {
+    display: inline-block;
+    float: left;
+    width: auto;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+    background-color: #000;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-variant: normal;
+    color: #FFF;
+    transition: all 1s 0s linear;
+}
+
+#NavBarLinkleriListe a:hover {
+    display: inline-block;
+    float: left;
+    width: auto;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+    background-color: #000;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-variant: normal;
+    color: #030;
+}
+
+main {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px;
+    margin-top: 32px;
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    background-color: #CCC;
+}
+
+footer {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    background-color: #696969;
+}
+
+#FooterGenelAlani {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+    background-color: #696969;
+}
+
+#FooterSinirlandirmaAlani {
+    display: block;
+    width: -webkit-calc(100% - 10px);
+    width: -moz-calc(100% - 10px);
+    width: -o-calc(100% - 10px);
+    width: -ms-calc(100% - 10px);
+    width: calc(100% - 10px);
+    min-width: -webkit-calc(100% - 10px);
+    min-width: -moz-calc(100% - 10px);
+    min-width: -o-calc(100% - 10px);
+    min-width: -ms-calc(100% - 10px);
+    min-width: calc(100% - 10px);
+    max-width: -webkit-calc(100% - 10px);
+    max-width: -moz-calc(100% - 10px);
+    max-width: -o-calc(100% - 10px);
+    max-width: -ms-calc(100% - 10px);
+    max-width: calc(100% - 10px);
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+    background-color: #696969;
+}
+
+#FooterSolAlan {
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+}
+
+@media only screen and (min-width:1200px) {
+    #FooterSolAlan {
+        display: inline-block;
+        float: left;
+        width: 50%;
+        min-width: 50%;
+        max-width: 50%;
+    }
+}
+
+@media only screen and (min-width:996px) and (max-width:1199px) {
+    #FooterSolAlan {
+        display: inline-block;
+        float: left;
+        width: 50%;
+        min-width: 50%;
+        max-width: 50%;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:995px) {
+    #FooterSolAlan {
+        display: inline-block;
+        float: left;
+        width: 50%;
+        min-width: 50%;
+        max-width: 50%;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+    #FooterSolAlan {
+        display: block;
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width:575px) {
+    #FooterSolAlan {
+        display: block;
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
+
+#FooterSagAlan {
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+}
+
+@media only screen and (min-width:1200px) {
+    #FooterSagAlan {
+        display: inline-block;
+        float: right;
+        width: 50%;
+        min-width: 50%;
+        max-width: 50%;
+    }
+}
+
+@media only screen and (min-width:996px) and (max-width:1199px) {
+    #FooterSagAlan {
+        display: inline-block;
+        float: right;
+        width: 50%;
+        min-width: 50%;
+        max-width: 50%;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:995px) {
+    #FooterSagAlan {
+        display: inline-block;
+        float: right;
+        width: 50%;
+        min-width: 50%;
+        max-width: 50%;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+    #FooterSagAlan {
+        display: block;
+        float: left;
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width:575px) {
+    #FooterSagAlan {
+        display: block;
+        float: left;
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
+
+#FooterSolAlanBaslikAlani {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: top;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-variant: normal;
+    color: #FFF;
+}
+
+@media only screen and (min-width:1200px) {
+    #FooterSolAlanBaslikAlani {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width:996px) and (max-width:1199px) {
+    #FooterSolAlanBaslikAlani {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:995px) {
+    #FooterSolAlanBaslikAlani {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+    #FooterSolAlanBaslikAlani {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:575px) {
+    #FooterSolAlanBaslikAlani {
+        font-size: 15px;
+    }
+}
+
+#FooterSolAlanIcerikAlani {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    margin-top: 10px;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+}
+
+#FooterSolAlanIcerikAlaniBaslik {
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 0px auto;
+    margin-top: 10px;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: top;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-variant: normal;
+    color: #FFF;
+}
+
+@media only screen and (min-width:1200px) {
+    #FooterSolAlanIcerikAlaniBaslik {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width:996px) and (max-width:1199px) {
+    #FooterSolAlanIcerikAlaniBaslik {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:995px) {
+    #FooterSolAlanIcerikAlaniBaslik {
+        font-size: 14px;
+    }
+}
+
+#FooterSolAlanIcerikAlaniBaslik span {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: top;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    color: #CCC;
+}
+
+@media only screen and (min-width:1200px) {
+    #FooterSolAlanIcerikAlaniBaslik span {
+        font-size: 14px;
+        margin-top: 2px;
+    }
+}
+
+@media only screen and (min-width:996px) and (max-width:1199px) {
+    #FooterSolAlanIcerikAlaniBaslik span {
+        font-size: 13px;
+        margin-top: 3px;
+    }
+}
+
+@media only screen and (min-width:767px) and (max-width:995px) {
+    #FooterSolAlanIcerikAlaniBaslik span {
+        font-size: 12px;
+        margin-top: 3px;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+    #FooterSolAlanIcerikAlaniBaslik span {
+        font-size: 12px;
+        margin-top: 3px;
+    }
+}
+
+@media only screen and (max-width:575px) {
+    #FooterSolAlanIcerikAlaniBaslik span {
+        font-size: 12px;
+        margin-top: 3px;
+    }
+}
+
+#FooterSagAlanBaslikAlani {
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: top;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-variant: normal;
+    color: #FFF;
+}
+
+@media only screen and (min-width:1200px) {
+    #FooterSagAlanBaslikAlani {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width:996px) and (max-width:1199px) {
+    #FooterSagAlanBaslikAlani {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width:767px) and (max-width:995px) {
+    #FooterSagAlanBaslikAlani {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+    #FooterSagAlanBaslikAlani {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    #FooterSagAlanBaslikAlani {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+}
+
+#FooterSagAlanSocialMedias {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+#FooterSagAlanSocialMediasIconAlani {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+#FooterSagAlanSocialMediasIconAlani img {
+    display: inline-block;
+    float: left;
+    width: 74px;
+    min-width: 74px;
+    max-width: 74px;
+    height: 74px;
+    min-height: 74px;
+    max-height: 74px;
+    margin: 0px auto;
+    margin-left: 25px;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+    filter: grayscale(100%);
+}
+
+#FooterSagAlanSocialMediasIconAlani img:hover {
+    display: inline-block;
+    float: left;
+    width: 74px;
+    min-width: 74px;
+    max-width: 74px;
+    height: 74px;
+    min-height: 74px;
+    max-height: 74px;
+    margin: 0px auto;
+    margin-left: 25px;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+    filter: grayscale(0%);
+    cursor: pointer;
+}
+
+#HakkimizdaAlani {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0xp auto;
+    padding: 0px;
+    padding-bottom: 15px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+    background-color: #CCC;
+}
+
+#HakkimizdaSinirlamaAlani {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0xp auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+    background-color: #CCC;
+}
+
+#HakkimizdaBaslikAlani {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0xp auto;
+    margin-left: 10px;
+    padding: 0px;
+    padding-bottom: 5px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+    background-color: #CCC;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-variant: normal;
+    color: #FFF;
+}
+
+@media only screen and (min-width:1200px) {
+    #HakkimizdaBaslikAlani {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width:996px) and (max-width:1199px) {
+    #HakkimizdaBaslikAlani {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:995px) {
+    #HakkimizdaBaslikAlani {
+        font-size: 14px;
+    }
+}
+
+#HakkimizdaContentAlani {
+    display: block;
+    width: -webkit-calc(100% - 40px);
+    width: -moz-calc(100% - 40px);
+    width: -o-calc(100% - 40px);
+    width: -ms-calc(100% - 40px);
+    width: calc(100% - 40px);
+    min-width: -webkit-calc(100% - 40px);
+    min-width: -moz-calc(100% - 40px);
+    min-width: -o-calc(100% - 40px);
+    min-width: -ms-calc(100% - 40px);
+    min-width: calc(100% - 40px);
+    max-width: -webkit-calc(100% - 40px);
+    max-width: -moz-calc(100% - 40px);
+    max-width: -o-calc(100% - 40px);
+    max-width: -ms-calc(100% - 40px);
+    max-width: calc(100% - 40px);
+    height: auto;
+    margin: 0xp auto;
+    padding: 0px;
+    padding-left: 20px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: justify;
+    vertical-align: top;
+    text-decoration: none;
+    background-color: #CCC;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    color: #000;
+}
+
+@media only screen and (min-width:1200px) {
+    #HakkimizdaContentAlani {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width:996px) and (max-width:1199px) {
+    #HakkimizdaContentAlani {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width:995px) {
+    #HakkimizdaContentAlani {
+        font-size: 12px;
+    }
+}
+
+#MusikEklemeAlani {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+    background-color: #CCC;
+}
+
+#MusikEklemeAlaniSinirlandirmaAlani {
+    display: block;
+    width: -webkit-calc(100% - 40px);
+    width: -moz-calc(100% - 40px);
+    width: -o-calc(100% - 40px);
+    width: -ms-calc(100% - 40px);
+    width: calc(100% - 40px);
+    min-width: -webkit-calc(100% - 40px);
+    min-width: -moz-calc(100% - 40px);
+    min-width: -o-calc(100% - 40px);
+    min-width: -ms-calc(100% - 40px);
+    min-width: calc(100% - 40px);
+    max-width: -webkit-calc(100% - 40px);
+    max-width: -moz-calc(100% - 40px);
+    max-width: -o-calc(100% - 40px);
+    max-width: -ms-calc(100% - 40px);
+    max-width: calc(100% - 40px);
+    height: auto;
+    margin: 0px auto;
+    margin-left: 20px;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+}
+
+#MusikEklemeAlaniInputlariAlani {
+    display: block;
+    width: -webkit-calc(100% - 40px);
+    width: -moz-calc(100% - 40px);
+    width: -o-calc(100% - 40px);
+    width: -ms-calc(100% - 40px);
+    width: calc(100% - 40px);
+    min-width: -webkit-calc(100% - 40px);
+    min-width: -moz-calc(100% - 40px);
+    min-width: -o-calc(100% - 40px);
+    min-width: -ms-calc(100% - 40px);
+    min-width: calc(100% - 40px);
+    max-width: -webkit-calc(100% - 40px);
+    max-width: -moz-calc(100% - 40px);
+    max-width: -o-calc(100% - 40px);
+    max-width: -ms-calc(100% - 40px);
+    max-width: calc(100% - 40px);
+    height: auto;
+    margin: 0px auto;
+    margin-left: 20px;
+    padding: 0px;
+    overflow: auto;
+    border: none;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+}
+
+#MusikEklemeAlaniInputlariAlani input {
+    display: block;
+    width: -webkit-calc(100% - 40px);
+    width: -moz-calc(100% - 40px);
+    width: -o-calc(100% - 40px);
+    width: -ms-calc(100% - 40px);
+    width: calc(100% - 40px);
+    min-width: -webkit-calc(100% - 40px);
+    min-width: -moz-calc(100% - 40px);
+    min-width: -o-calc(100% - 40px);
+    min-width: -ms-calc(100% - 40px);
+    min-width: calc(100% - 40px);
+    max-width: -webkit-calc(100% - 40px);
+    max-width: -moz-calc(100% - 40px);
+    max-width: -o-calc(100% - 40px);
+    max-width: -ms-calc(100% - 40px);
+    max-width: calc(100% - 40px);
+    height: 32px;
+    min-height: 32px;
+    max-height: 32px;
+    margin: 0px auto;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    padding: 0px;
+    padding-left: 5px;
+    overflow: hidden;
+    border: none;
+    border: 1px solid #696969;
+    border-radius: 10px;
+    outline: none;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: top;
+}
+
+#MusikEklemeAlaniInputlariAlani input:focus {
+    display: block;
+    width: -webkit-calc(100% - 40px);
+    width: -moz-calc(100% - 40px);
+    width: -o-calc(100% - 40px);
+    width: -ms-calc(100% - 40px);
+    width: calc(100% - 40px);
+    min-width: -webkit-calc(100% - 40px);
+    min-width: -moz-calc(100% - 40px);
+    min-width: -o-calc(100% - 40px);
+    min-width: -ms-calc(100% - 40px);
+    min-width: calc(100% - 40px);
+    max-width: -webkit-calc(100% - 40px);
+    max-width: -moz-calc(100% - 40px);
+    max-width: -o-calc(100% - 40px);
+    max-width: -ms-calc(100% - 40px);
+    max-width: calc(100% - 40px);
+    height: 32px;
+    min-height: 32px;
+    max-height: 32px;
+    margin: 0px auto;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    padding: 0px;
+    padding-left: 5px;
+    overflow: hidden;
+    border: none;
+    border: 1px solid Blue;
+    border-radius: 10px;
+    outline: none;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: top;
+}
+
+#MusikEklemeAlaniInputlariAlani textarea {
+    display: block;
+    height: 300px;
+    min-height: 300px;
+    max-height: 300px;
+    margin: 0px auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0px;
+    padding-left: 5px;
+    padding-top: 5px;
+    overflow: auto;
+    border: none;
+    border: 1px solid #696969;
+    border-radius: 10px;
+    outline: none;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: top;
+}
+
+@media only screen and (min-width:1200px) {
+    #MusikEklemeAlaniInputlariAlani textarea {
+        width: 1000px;
+        min-width: 1000px;
+        max-width: 1000px;
+    }
+}
+
+@media only screen and (min-width:996px) and (max-width:1199px) {
+    #MusikEklemeAlaniInputlariAlani textarea {
+        width: 800px;
+        min-width: 800px;
+        max-width: 800px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:995px) {
+    #MusikEklemeAlaniInputlariAlani textarea {
+        width: 700px;
+        min-width: 700px;
+        max-width: 700px;
+    }
+}
+
+@media only screen and (min-width:586px) and (max-width:767px) {
+    #MusikEklemeAlaniInputlariAlani textarea {
+        width: 500px;
+        min-width: 500px;
+        max-width: 500px;
+    }
+}
+
+@media only screen and (max-width:585px) {
+    #MusikEklemeAlaniInputlariAlani textarea {
+        width: 250px;
+        min-width: 250px;
+        max-width: 250px;
+    }
+}
+
+#MusikEklemeAlaniInputlariAlani textarea:focus {
+    display: block;
+    height: 300px;
+    min-height: 300px;
+    max-height: 300px;
+    margin: 0px auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0px;
+    padding-left: 5px;
+    padding-top: 5px;
+    overflow: auto;
+    border: none;
+    border: 1px solid blue;
+    border-radius: 10px;
+    outline: none;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: top;
+}
+
+.AddMusicButton {
+    display: block;
+    width: -webkit-calc(100% - 40px);
+    width: -moz-calc(100% - 40px);
+    width: -o-calc(100% - 40px);
+    width: -ms-calc(100% - 40px);
+    width: calc(100% - 40px);
+    min-width: -webkit-calc(100% - 40px);
+    min-width: -moz-calc(100% - 40px);
+    min-width: -o-calc(100% - 40px);
+    min-width: -ms-calc(100% - 40px);
+    min-width: calc(100% - 40px);
+    max-width: -webkit-calc(100% - 40px);
+    max-width: -moz-calc(100% - 40px);
+    max-width: -o-calc(100% - 40px);
+    max-width: -ms-calc(100% - 40px);
+    max-width: calc(100% - 40px);
+    height: 32px;
+    min-height: 32px;
+    max-height: 32px;
+    margin: 0px auto;
+    margin-left: 23px;
+    padding: 0px;
+    overflow: auto;
+    border: none;
+    border: 1px solid #696969;
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+    transition: background-color 700ms 0s linear;
+}
+
+.AddMusicButton:hover {
+    display: block;
+    width: -webkit-calc(100% - 40px);
+    width: -moz-calc(100% - 40px);
+    width: -o-calc(100% - 40px);
+    width: -ms-calc(100% - 40px);
+    width: calc(100% - 40px);
+    min-width: -webkit-calc(100% - 40px);
+    min-width: -moz-calc(100% - 40px);
+    min-width: -o-calc(100% - 40px);
+    min-width: -ms-calc(100% - 40px);
+    min-width: calc(100% - 40px);
+    max-width: -webkit-calc(100% - 40px);
+    max-width: -moz-calc(100% - 40px);
+    max-width: -o-calc(100% - 40px);
+    max-width: -ms-calc(100% - 40px);
+    max-width: calc(100% - 40px);
+    height: 32px;
+    min-height: 32px;
+    max-height: 32px;
+    margin: 0px auto;
+    margin-left: 23px;
+    padding: 0px;
+    overflow: auto;
+    border: none;
+    border: 1px solid #41b0ae;
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+    cursor: pointer;
+    background-color: #41b0ae;
+}
+
+#MusikEklemeAlaniInputlariAlani form {
+    display: block;
+    width: -webkit-calc(100% - 40px);
+    width: -moz-calc(100% - 40px);
+    width: -o-calc(100% - 40px);
+    width: -ms-calc(100% - 40px);
+    width: calc(100% - 40px);
+    min-width: -webkit-calc(100% - 40px);
+    min-width: -moz-calc(100% - 40px);
+    min-width: -o-calc(100% - 40px);
+    min-width: -ms-calc(100% - 40px);
+    min-width: calc(100% - 40px);
+    max-width: -webkit-calc(100% - 40px);
+    max-width: -moz-calc(100% - 40px);
+    max-width: -o-calc(100% - 40px);
+    max-width: -ms-calc(100% - 40px);
+    max-width: calc(100% - 40px);
+    height: auto;
+    margin: 0px auto;
+    margin-left: 10px;
+    padding: 0px;
+    overflow: auto;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+}
+
+#TabloAnaAlan {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+#TabloSinirlandirmaAlani {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    border: 1px solid gray;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+#TabloAlani {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+.TabloAlaniBaslikAlani {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    margin-left: 50px;
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 35px;
+    overflow: hidden;
+    border: none;
+    border-bottom: 1px solid goldenrod;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+.TabloAlaniBaslikAlani th {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin: 0px auto;
+    margin-left: 45px;
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+.TabloAlaniIcerikAlani {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    margin-left: 50px;
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 35px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+    background-color: #696969;
+    transition: all 2s 0s linear;
+}
+
+.TabloAlaniIcerikAlani:hover {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    margin-left: 50px;
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 35px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+    background-color: #41b0ae;
+}
+
+.TabloAlaniIcerikAlani td {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin: 0px auto;
+    margin-left: 45px;
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+.TabloDinamikLink {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    vertical-align: top;
+    text-align: center;
+    cursor: pointer;
+    color: #FFF;
+}
+
+#MuzikDetaylariGenelAlani {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    border: none;
+    border-bottom: 1px solid #696969;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+#MuzikDetaylariSinirlandirmaAlani {
+    display: block;
+    width: -webkit-calc(100% - 100px);
+    width: -moz-calc(100% - 100px);
+    width: -o-calc(100% - 100px);
+    width: -ms-calc(100% - 100px);
+    width: calc(100% - 100px);
+    min-width: -webkit-calc(100% - 100px);
+    min-width: -moz-calc(100% - 100px);
+    min-width: -o-calc(100% - 100px);
+    min-width: -ms-calc(100% - 100px);
+    min-width: calc(100% - 100px);
+    max-width: -webkit-calc(100% - 100px);
+    max-width: -moz-calc(100% - 100px);
+    max-width: -o-calc(100% - 100px);
+    max-width: -ms-calc(100% - 100px);
+    max-width: calc(100% - 100px);
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+#MuzikDetaylariAlani {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+.MuzikDetaylariFotografAlani {
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+@media only screen and (min-width:1200px) {
+    .MuzikDetaylariFotografAlani {
+        display: inline-block;
+        float: left;
+        width: 300px;
+        min-width: 300px;
+        max-width: 300px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .MuzikDetaylariFotografAlani {
+        display: block;
+        float: left;
+        width: 300px;
+        min-width: 300px;
+        max-width: 300px;
+    }
+}
+
+.MuzikDetaylariFotografAlani img {
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+@media only screen and (min-width:1200px) {
+    .MuzikDetaylariFotografAlani img {
+        display: inline-block;
+        float: left;
+        width: 300px;
+        min-width: 300px;
+        max-width: 300px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .MuzikDetaylariFotografAlani img {
+        display: block;
+        float: left;
+        width: 300px;
+        min-width: 300px;
+        max-width: 300px;
+    }
+}
+
+.MuzikDetaylariBaslikAlani {
+    display: inline-block;
+    width: -webkit-calc(100% - 300px);
+    width: -moz-calc(100% - 300px);
+    width: -o-calc(100% - 300px);
+    width: -ms-calc(100% - 300px);
+    width: calc(100% - 300px);
+    min-width: -webkit-calc(100% - 300px);
+    min-width: -moz-calc(100% - 300px);
+    min-width: -o-calc(100% - 300px);
+    min-width: -ms-calc(100% - 300px);
+    min-width: calc(100% - 300px);
+    max-width: -webkit-calc(100% - 300px);
+    max-width: -moz-calc(100% - 300px);
+    max-width: -o-calc(100% - 300px);
+    max-width: -ms-calc(100% - 300px);
+    max-width: calc(100% - 300px);
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    padding-left: 10px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+#FormAlaniGenelAlan {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+#FormAlaniSinirlamaAlani {
+    display: block;
+    width: -webkit-calc(100% - 100px);
+    width: -moz-calc(100% - 100px);
+    width: -o-calc(100% - 100px);
+    width: -ms-calc(100% - 100px);
+    width: calc(100% - 100px);
+    max-width: -webkit-calc(100% - 100px);
+    max-width: -moz-calc(100% - 100px);
+    max-width: -o-calc(100% - 100px);
+    max-width: -ms-calc(100% - 100px);
+    max-width: calc(100% - 100px);
+    min-width: -webkit-calc(100% - 100px);
+    min-width: -moz-calc(100% - 100px);
+    min-width: -o-calc(100% - 100px);
+    min-width: -ms-calc(100% - 100px);
+    min-width: calc(100% - 100px);
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+#FormAlaniRegisterFormu {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+#FormAlaniRegisterFormu input {
+    display: block;
+    height: 32px;
+    margin: 0px auto;
+    padding: 0px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border: none;
+    border: 1px solid gold;
+    border-radius: 10px;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+    transition: all 1s 0s linear;
+}
+
+@media only screen and (min-width:1200px) {
+    #FormAlaniRegisterFormu input {
+        width: -webkit-calc(100% - 200px);
+        width: -moz-calc(100% - 200px);
+        width: -o-calc(100% - 200px);
+        width: -ms-calc(100% - 200px);
+        width: calc(100% - 200px);
+        min-width: -webkit-calc(100% - 200px);
+        min-width: -moz-calc(100% - 200px);
+        min-width: -o-calc(100% - 200px);
+        min-width: -ms-calc(100% - 200px);
+        min-width: calc(100% - 200px);
+        max-width: -webkit-calc(100% - 200px);
+        max-width: -moz-calc(100% - 200px);
+        max-width: -o-calc(100% - 200px);
+        max-width: -ms-calc(100% - 200px);
+        max-width: calc(100% - 200px);
+    }
+}
+
+@media only screen and (min-width:996px) and (max-width:1199px) {
+    #FormAlaniRegisterFormu input {
+        width: -webkit-calc(100% - 200px);
+        width: -moz-calc(100% - 200px);
+        width: -o-calc(100% - 200px);
+        width: -ms-calc(100% - 200px);
+        width: calc(100% - 200px);
+        min-width: -webkit-calc(100% - 200px);
+        min-width: -moz-calc(100% - 200px);
+        min-width: -o-calc(100% - 200px);
+        min-width: -ms-calc(100% - 200px);
+        min-width: calc(100% - 200px);
+        max-width: -webkit-calc(100% - 200px);
+        max-width: -moz-calc(100% - 200px);
+        max-width: -o-calc(100% - 200px);
+        max-width: -ms-calc(100% - 200px);
+        max-width: calc(100% - 200px);
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:995px) {
+    #FormAlaniRegisterFormu input {
+        width: -webkit-calc(100% - 200px);
+        width: -moz-calc(100% - 200px);
+        width: -o-calc(100% - 200px);
+        width: -ms-calc(100% - 200px);
+        width: calc(100% - 200px);
+        min-width: -webkit-calc(100% - 200px);
+        min-width: -moz-calc(100% - 200px);
+        min-width: -o-calc(100% - 200px);
+        min-width: -ms-calc(100% - 200px);
+        min-width: calc(100% - 200px);
+        max-width: -webkit-calc(100% - 200px);
+        max-width: -moz-calc(100% - 200px);
+        max-width: -o-calc(100% - 200px);
+        max-width: -ms-calc(100% - 200px);
+        max-width: calc(100% - 200px);
+    }
+}
+
+@media only screen and (min-width:586px) and (max-width:767px) {
+    #FormAlaniRegisterFormu input {
+        width: -webkit-calc(100% - 50px);
+        width: -moz-calc(100% - 50px);
+        width: -o-calc(100% - 50px);
+        width: -ms-calc(100% - 50px);
+        width: calc(100% - 50px);
+        min-width: -webkit-calc(100% - 50px);
+        min-width: -moz-calc(100% - 50px);
+        min-width: -o-calc(100% - 50px);
+        min-width: -ms-calc(100% - 50px);
+        min-width: calc(100% - 50px);
+        max-width: -webkit-calc(100% - 50px);
+        max-width: -moz-calc(100% - 50px);
+        max-width: -o-calc(100% - 50px);
+        max-width: -ms-calc(100% - 50px);
+        max-width: calc(100% - 50px);
+    }
+}
+
+@media only screen and (max-width:585px) {
+    #FormAlaniRegisterFormu input {
+        width: -webkit-calc(100% - 50px);
+        width: -moz-calc(100% - 50px);
+        width: -o-calc(100% - 50px);
+        width: -ms-calc(100% - 50px);
+        width: calc(100% - 50px);
+        min-width: -webkit-calc(100% - 50px);
+        min-width: -moz-calc(100% - 50px);
+        min-width: -o-calc(100% - 50px);
+        min-width: -ms-calc(100% - 50px);
+        min-width: calc(100% - 50px);
+        max-width: -webkit-calc(100% - 50px);
+        max-width: -moz-calc(100% - 50px);
+        max-width: -o-calc(100% - 50px);
+        max-width: -ms-calc(100% - 50px);
+        max-width: calc(100% - 50px);
+    }
+}
+
+#FormAlaniRegisterFormu input:focus {
+    display: block;
+    width: -webkit-calc(100% - 200px);
+    width: -moz-calc(100% - 200px);
+    width: -o-calc(100% - 200px);
+    width: -ms-calc(100% - 200px);
+    width: calc(100% - 200px);
+    min-width: -webkit-calc(100% - 200px);
+    min-width: -moz-calc(100% - 200px);
+    min-width: -o-calc(100% - 200px);
+    min-width: -ms-calc(100% - 200px);
+    min-width: calc(100% - 200px);
+    max-width: -webkit-calc(100% - 200px);
+    max-width: -moz-calc(100% - 200px);
+    max-width: -o-calc(100% - 200px);
+    max-width: -ms-calc(100% - 200px);
+    max-width: calc(100% - 200px);
+    height: 32px;
+    margin: 0px auto;
+    padding: 0px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+.FormAlaniRegisterFormuButonu {
+    display: block;
+    height: 32px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    border: 1px solic #CCC;
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+    background-color: #35af35;
+    cursor: pointer;
+    transition: all 1s 0s linear;
+}
+
+@media only screen and (min-width:1200px) {
+    .FormAlaniRegisterFormuButonu {
+        width: 10%;
+        min-width: 10%;
+        max-width: 10%;
+    }
+}
+
+@media only screen and (min-width:996px) and (max-width:1199px) {
+    .FormAlaniRegisterFormuButonu {
+        width: 20%;
+        min-width: 20%;
+        max-width: 20%;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:995px) {
+    .FormAlaniRegisterFormuButonu {
+        width: 40%;
+        min-width: 40%;
+        max-width: 40%;
+    }
+}
+
+@media only screen and (min-width:586px) and (max-width:767px) {
+    .FormAlaniRegisterFormuButonu {
+        width: 60%;
+        min-width: 60%;
+        max-width: 60%;
+    }
+}
+
+@media only screen and (max-width:585px) {
+    .FormAlaniRegisterFormuButonu {
+        width: 60%;
+        min-width: 60%;
+        max-width: 60%;
+    }
+}
+
+.FormAlaniRegisterFormuButonu:hover {
+    display: block;
+    height: 32px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    border: 1px solic #CCC;
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+    background-color: #51ff00;
+    cursor: pointer;
+}

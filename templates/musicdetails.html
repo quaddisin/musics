@@ -1,0 +1,43 @@
+{% extends "index.html" %} {% block main %}
+<div id="MuzikDetaylariGenelAlani">
+    <div id="MuzikDetaylariSinirlandirmaAlani">
+        <div id="MuzikDetaylariAlani">
+
+            <div class="MuzikDetaylariFotografAlani">
+                <img src="{{result.musicfile.url}}" alt="">
+            </div>
+
+            <div class="MuzikDetaylariBaslikAlani">
+                {{result.musicname}}
+            </div>
+
+            <div class="MuzikDetaylariBaslikAlani">
+                {{result.musicactor}}
+            </div>
+            <div class="MuzikDetaylariBaslikAlani">
+                {{result.musicyear}}
+            </div>
+            <div class="MuzikDetaylariBaslikAlani" lang="utf-8">
+                {{result.musiccontent|safe}}
+            </div>
+
+
+
+
+
+
+        </div>
+
+
+
+    </div>
+
+
+</div>
+
+
+
+
+
+
+{% endblock %}

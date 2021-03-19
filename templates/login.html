@@ -1,0 +1,14 @@
+{% extends "index.html" %} {% block main %}
+<div id="FormAlaniGenelAlan">
+    <div id="FormAlaniSinirlamaAlani">
+        <form id="FormAlaniRegisterFormu" method="POST">
+            {% csrf_token %} {{form.as_p}}
+
+            <button type="submit" class="FormAlaniRegisterFormuButonu">Login</button>
+
+        </form>
+    </div>
+</div>
+
+
+{% endblock %}

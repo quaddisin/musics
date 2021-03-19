@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/css/index.css">
+</head>
+
+<body>
+    <div id="TumGenelAlan">
+
+        <div id="GenelAlaniSinirlamaAlani">
+            <div id="NavBarGenelAlani">
+                <div id="NavBarSinirlandirmaAlani">
+                    <div id="NavBarLinklerAlani">
+                        <ul id="NavBarLinkleriListeAlani">
+                            {% if request.user.is_authenticated %}
+                            <li id="NavBarLinkleriListe"><a href="/">Home</a></li>
+                            <li id="NavBarLinkleriListe"><a href="#communication">Communication</a></li>
+                            <li id="NavBarLinkleriListe"><a href="#about">About</a></li>
+                            <li id="NavBarLinkleriListe"><a href="/addmusic">AddMusic</a></li>
+                            <li id="NavBarLinkleriListe" style="float: right;padding-right: 20px;"><a href="/user/logout">Logout</a></li>
+
+
+                            {% else %}
+                            <li id="NavBarLinkleriListe"><a href="/">Home</a></li>
+                            <li id="NavBarLinkleriListe"><a href="#communication">Communication</a></li>
+                            <li id="NavBarLinkleriListe"><a href="#about">About</a></li>
+                            <li id="NavBarLinkleriListe" style="float: right;padding-right: 20px;"><a href="/user/register">Register</a></li>
+                            <li id="NavBarLinkleriListe" style="float: right;"><a href="/user/login">Login</a></li>
+                            {% endif %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <main style="padding-top: 30px;">
+                {% include 'includes/messages.html' %} {% block main %} {% if request.user.is_authenticated %} {% if musics %}
+
+
+
+
+                <div id="TabloAnaAlan">
+                    <div id="TabloSinirlandirmaAlani">
+                        <table id="TabloAlani">
+                            <thead>
+                                <tr class="TabloAlaniBaslikAlani">
+                                    <th>Music Name</th>
+                                    <th>Music Actor</th>
+                                    <th>Music Year</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for music in musics %}
+                                <tr class="TabloAlaniIcerikAlani">
+
+                                    <td>
+                                        <a class="TabloDinamikLink" href="/musicdetail/{{music.musicname}}">
+                                        {{music.musicname}}
+                                        </a>
+                                    </td>
+                                    <td>{{music.musicactor}}</td>
+                                    <td>{{music.musicyear}}</td>
+                                    <td><a href="/delete/{{music.musicname}}">Delete</a></td>
+                                    <td><a href="/update/{{music.musicname}}">Update</a></td>
+
+                                </tr>
+
+                                {% endfor %}
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                {% else %} --- {% endif %}{% endif %} {% endblock %}
+
+            </main>
+
+
+
+
+
+
+
+
+
+
+
+
+            <div id="about">
+                <div id="HakkimizdaAlani">
+                    <div id="HakkimizdaSinirlamaAlani">
+                        <div id="HakkimizdaBaslikAlani">About</div>
+                        <div id="HakkimizdaContentAlani">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus labore, et aliquid, at, maxime ipsam obcaecati necessitatibus quam doloremque blanditiis incidunt id dolorum? Est, eveniet minima illum commodi quod culpa. Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Accusamus labore, et aliquid, at, maxime ipsam obcaecati necessitatibus quam doloremque blanditiis incidunt id dolorum? Est, eveniet minima illum commodi quod culpa. Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Accusamus labore, et aliquid, at, maxime ipsam obcaecati necessitatibus quam doloremque blanditiis incidunt id dolorum? Est, eveniet minima illum commodi quod culpa. Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Accusamus labore, et aliquid, at, maxime ipsam obcaecati necessitatibus quam doloremque blanditiis incidunt id dolorum? Est, eveniet minima illum commodi quod culpa. Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Accusamus labore, et aliquid, at, maxime ipsam obcaecati necessitatibus quam doloremque blanditiis incidunt id dolorum? Est, eveniet minima illum commodi quod culpa. Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Accusamus labore, et aliquid, at, maxime ipsam obcaecati necessitatibus quam doloremque blanditiis incidunt id dolorum? Est, eveniet minima illum commodi quod culpa. Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Accusamus labore, et aliquid, at, maxime ipsam obcaecati necessitatibus quam doloremque blanditiis incidunt id dolorum? Est, eveniet minima illum commodi quod culpa. Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Accusamus labore, et aliquid, at, maxime ipsam obcaecati necessitatibus quam doloremque blanditiis incidunt id dolorum? Est, eveniet minima illum commodi quod culpa. Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Accusamus labore, et aliquid, at, maxime ipsam obcaecati necessitatibus quam doloremque blanditiis incidunt id dolorum? Est, eveniet minima illum commodi quod culpa.
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <footer id="communication">
+                <div id="FooterGenelAlani">
+                    <div id="FooterSinirlandirmaAlani">
+                        <div id="FooterSolAlan">
+                            <div id="FooterSolAlanBaslikAlani">Communication</div>
+                            <div id="FooterSolAlanIcerikAlani">
+                                <div id="FooterSolAlanIcerikAlaniBaslik">Phone Number : <span>+90 (553) 025 70 11</span></div>
+                                <div id="FooterSolAlanIcerikAlaniBaslik">Address : <span>The White House 1600 Pennsylvania Ave NW Washington, DC 20500 </span></div>
+                            </div>
+                        </div>
+                        <div id="FooterSagAlan">
+                            <div id="FooterSagAlanBaslikAlani"></div>
+                            <div id="FooterSagAlanSocialMedias">
+                                <div id="FooterSagAlanSocialMediasIconAlani">
+                                    <a href="https://www.facebook.com"><img class="FacebookImg" src="/static/resimler/facebook.png" alt=""></a>
+                                    <a href="https://www.instagram.com"><img class="InstagramImg" src="/static/resimler/instagram.png" alt=""></a>
+                                    <a href="https://www.twitter.com"><img class="TwitterImg" src="/static/resimler/twitter.png" alt=""></a>
+                                    <a href="https://www.google.com"><img class="GoogleImg" src="/static/resimler/google.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+    </div>
+</body>
+
+</html>

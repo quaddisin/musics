@@ -1,0 +1,12 @@
+{% extends "index.html" %} {% block main %}
+<div id="MusikEklemeAlani">
+    <div id="MusikEklemeAlaniSinirlandirmaAlani">
+        <div id="MusikEklemeAlaniInputlariAlani">
+            <form action="" method="POST" enctype="multipart/form-data">
+                {% csrf_token %} {{form}}
+                <button type="submit" value="AddMusic" class="AddMusicButton">Add Music</button>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}
